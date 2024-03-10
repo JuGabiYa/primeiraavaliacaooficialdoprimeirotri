@@ -10,7 +10,7 @@
         <title>primo</title>        
         <meta charset="UTF-8">          
         <script> 
-            function receberNumero(){
+            function recebeNumero(){
                 var canvas = document.getElementById('meuCanvas');
                 if (canvas.getContext){
                     var cntxt = canvas.getContext('2d');
@@ -43,7 +43,7 @@
                 else{
                     while(c<=Math.sqrt(N1)){
                         if(N1%c==0){
-                            line=line +"("+N1.toString()+") Não é primo"
+                            line=line +"("+N1.toString()+"Não é primo"
                             break
                         }else{
                             line=line +"("+N1.toString()+") É primo"
@@ -64,7 +64,7 @@
     </head>
     <body>
         <div>
-            <h1>Verificando se são numeros primos</h1>
+            <h1>Verificador de números primos</h1>
             <label style="font-size: 20px;"> Por Favor Digite um número natural</label><br>
             <input type="text" id="Numero1" autofocus><br><br>
             
